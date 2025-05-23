@@ -1,0 +1,37 @@
+location_id,country,city,state,region
+1,United States ,Henderson,Kentucky,South
+2,United States ,Los Angeles,California,West
+3,United States ,Fort Lauderdale,Florida,South
+4,United States ,Concord,North Carolina,South
+5,United States ,Seattle,Washington,West
+6,United States ,Fort Worth,Texas,Central
+7,United States ,Madison,Wisconsin,Central
+8,United States ,West Jordan,Utah,West
+9,United States ,San Francisco,California,West
+10,United States ,Fremont,Nebraska,Central
+11,United States ,Philadelphia,Pennsylvania,East
+12,United States ,Orem,Utah,West
+13,United States ,Philadelphia,Pennsylvania,West
+14,United States ,Houston,Texas,Central
+15,United States ,Richardson,Texas,Central
+16,United States ,Naperville,Illinois,North
+17,United States ,Melbourne,Florida,North
+18,United States ,Eagan,Minnesota,Central
+19,United States ,Westland,Michigan,Central
+20,United States ,Dover,Delaware,East
+21,United States ,New Albany,Indiana,Central
+22,United States ,New York City,New York,North
+23,United States ,Troy,New York,North
+24,United States ,Chicago,Illinois,Central
+25,United States ,Gilbert,Arizona,West
+26,United States ,Springfield,Virginia,South
+27,United States ,New York City,New York,East
+28,United States ,Jackson,Michigan,Central
+29,United States ,Memphis,Tennessee,South
+30,United States ,Decatur,Alabama,South
+31,United States ,Durham,North Carolina,South
+32,United States ,Columbia,South Carolina,South
+33,United States ,Rochester,Minnesota,Central
+34,United States ,Minneapolis,Minnesota,Central
+35,United States ,Portland,Oregon,West
+36,United States ,Saint Paul,Minnesota,Central

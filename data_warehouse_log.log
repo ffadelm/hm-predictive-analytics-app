@@ -1,0 +1,165 @@
+2025-05-23 07:02:10,501 - INFO - Starting Data Warehouse Implementation
+2025-05-23 07:02:10,631 - INFO - Connected to PostgreSQL: PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-05-23 07:02:10,683 - INFO - Database schema created successfully
+2025-05-23 07:02:10,692 - INFO - Data loaded: 5 rows, 15 columns
+2025-05-23 07:02:10,705 - INFO - Data after preprocessing: 5 rows
+2025-05-23 07:02:10,791 - INFO - Inserted 3 records into dimension_date
+2025-05-23 07:02:10,797 - INFO - Inserted 5 records into dimension_product
+2025-05-23 07:02:10,802 - INFO - Inserted 3 records into dimension_location
+2025-05-23 07:02:10,810 - INFO - Inserted 3 records into dimension_order
+2025-05-23 07:02:10,828 - INFO - Inserted 5 records into fact_sales
+2025-05-23 07:02:10,848 - INFO - Database indexes created successfully
+2025-05-23 07:02:10,861 - INFO - Analysis views created successfully
+2025-05-23 07:02:10,861 - INFO - Running sample analysis queries...
+2025-05-23 07:02:10,870 - INFO - 
+Total Sales by Category:
+2025-05-23 07:02:10,873 - INFO -    category  total_sales
+0  Footwear    1951.4775
+1  Clothing      36.9880
+2025-05-23 07:02:10,876 - INFO - 
+Monthly Sales Trend:
+2025-05-23 07:02:10,877 - INFO -    year month_name  monthly_sales
+0  2018    October       979.9455
+1  2018   November       993.9000
+2  2018       June        14.6200
+2025-05-23 07:02:10,880 - INFO - 
+Top 5 Cities by Sales:
+2025-05-23 07:02:10,881 - INFO -               city       state  total_sales
+0        Henderson    Kentucky     993.9000
+1  Fort Lauderdale     Florida     979.9455
+2      Los Angeles  California      14.6200
+2025-05-23 07:02:10,884 - INFO - 
+Profit Margin by Category:
+2025-05-23 07:02:10,886 - INFO -    category  avg_profit_margin
+0  Clothing             29.125
+1  Footwear              2.000
+2025-05-23 07:02:10,888 - INFO - 
+Table Row Counts:
+2025-05-23 07:02:10,889 - INFO -            table_name  row_count
+0      dimension_date          3
+1   dimension_product          5
+2  dimension_location          3
+3     dimension_order          3
+4          fact_sales          5
+2025-05-23 07:02:10,908 - INFO - 
+Database Size:
+2025-05-23 07:02:10,909 - INFO -   schemaname           tablename    size
+0     public          fact_sales  104 kB
+1     public      dimension_date   88 kB
+2     public  dimension_location   72 kB
+3     public   dimension_product   56 kB
+4     public     dimension_order   40 kB
+2025-05-23 07:02:10,909 - INFO - Data Warehouse implementation completed successfully!
+2025-05-23 07:06:32,019 - INFO - Starting Data Warehouse Implementation
+2025-05-23 07:06:32,116 - INFO - Connected to PostgreSQL: PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-05-23 07:06:32,144 - INFO - Database schema created successfully
+2025-05-23 07:06:32,148 - INFO - Data loaded: 5 rows, 15 columns
+2025-05-23 07:06:32,152 - INFO - Data after preprocessing: 5 rows
+2025-05-23 07:06:32,173 - INFO - Inserted 3 records into dimension_date
+2025-05-23 07:06:32,179 - INFO - Inserted 5 records into dimension_product
+2025-05-23 07:06:32,186 - INFO - Inserted 3 records into dimension_location
+2025-05-23 07:06:32,192 - INFO - Inserted 3 records into dimension_order
+2025-05-23 07:06:32,208 - INFO - Inserted 5 records into fact_sales
+2025-05-23 07:06:32,230 - INFO - Database indexes created successfully
+2025-05-23 07:06:32,237 - INFO - Analysis views created successfully
+2025-05-23 07:06:32,237 - INFO - Running sample analysis queries...
+2025-05-23 07:06:32,246 - INFO - 
+Total Sales by Category:
+2025-05-23 07:06:32,249 - INFO -    category  total_sales
+0  Footwear    1951.4775
+1  Clothing      36.9880
+2025-05-23 07:06:32,252 - INFO - 
+Monthly Sales Trend:
+2025-05-23 07:06:32,253 - INFO -    year month_name  monthly_sales
+0  2018    October       979.9455
+1  2018   November       993.9000
+2  2018       June        14.6200
+2025-05-23 07:06:32,256 - INFO - 
+Top 5 Cities by Sales:
+2025-05-23 07:06:32,257 - INFO -               city       state  total_sales
+0        Henderson    Kentucky     993.9000
+1  Fort Lauderdale     Florida     979.9455
+2      Los Angeles  California      14.6200
+2025-05-23 07:06:32,260 - INFO - 
+Profit Margin by Category:
+2025-05-23 07:06:32,261 - INFO -    category  avg_profit_margin
+0  Clothing             29.125
+1  Footwear              2.000
+2025-05-23 07:06:32,263 - INFO - 
+Table Row Counts:
+2025-05-23 07:06:32,264 - INFO -            table_name  row_count
+0      dimension_date          3
+1   dimension_product          5
+2  dimension_location          3
+3     dimension_order          3
+4          fact_sales          5
+2025-05-23 07:06:32,281 - INFO - 
+Database Size:
+2025-05-23 07:06:32,282 - INFO -   schemaname           tablename    size
+0     public          fact_sales  104 kB
+1     public      dimension_date   88 kB
+2     public  dimension_location   72 kB
+3     public   dimension_product   56 kB
+4     public     dimension_order   40 kB
+2025-05-23 07:06:32,283 - INFO - Data Warehouse implementation completed successfully!
+2025-05-23 07:12:51,469 - INFO - Starting Data Warehouse Implementation
+2025-05-23 07:12:51,562 - INFO - Connected to PostgreSQL: PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-05-23 07:12:51,600 - INFO - Database schema created successfully
+2025-05-23 07:12:51,601 - ERROR - Implementation failed: [Errno 2] No such file or directory: 'data\\processed_data\\dimension_date.csv'
+2025-05-23 07:15:07,488 - INFO - Starting Data Warehouse Implementation
+2025-05-23 07:15:07,584 - INFO - Connected to PostgreSQL: PostgreSQL 17.4 on x86_64-windows, compiled by msvc-19.42.34436, 64-bit
+2025-05-23 07:15:07,618 - INFO - Database schema created successfully
+2025-05-23 07:15:07,719 - INFO - Database indexes created successfully
+2025-05-23 07:15:07,725 - INFO - Analysis views created successfully
+2025-05-23 07:15:07,725 - INFO - Running sample analysis queries...
+2025-05-23 07:15:07,735 - INFO - 
+Total Sales by Category:
+2025-05-23 07:15:07,737 - INFO -       category  total_sales
+0     Footwear   11083.7797
+1  Accessories    5186.7580
+2     Clothing    5169.3700
+2025-05-23 07:15:07,741 - INFO - 
+Monthly Sales Trend:
+2025-05-23 07:15:07,742 - INFO -     year month_name  monthly_sales
+0   2018    January       201.4780
+1   2018    October      1283.8175
+2   2018   November      2349.3160
+3   2018   December      5369.5912
+4   2018      March        63.4400
+5   2018      April      1598.3450
+6   2018        May       357.4600
+7   2018       June      4802.9060
+8   2018       July       149.2520
+9   2018     August       244.7600
+10  2018  September      5019.5420
+2025-05-23 07:15:07,745 - INFO - 
+Top 5 Cities by Sales:
+2025-05-23 07:15:07,747 - INFO -            city         state  total_sales
+0   Los Angeles    California    4275.4800
+1  Philadelphia  Pennsylvania    3400.8060
+2       Houston         Texas    1474.2892
+3    Richardson         Texas    1288.4640
+4       Gilbert       Arizona    1280.9920
+2025-05-23 07:15:07,750 - INFO - 
+Profit Margin by Category:
+2025-05-23 07:15:07,751 - INFO -       category  avg_profit_margin
+0  Accessories          20.031250
+1     Clothing          14.629944
+2     Footwear          -1.950650
+2025-05-23 07:15:07,754 - INFO - 
+Table Row Counts:
+2025-05-23 07:15:07,755 - INFO -            table_name  row_count
+0      dimension_date         44
+1   dimension_product         96
+2  dimension_location         36
+3     dimension_order         49
+4          fact_sales         99
+2025-05-23 07:15:07,772 - INFO - 
+Database Size:
+2025-05-23 07:15:07,773 - INFO -   schemaname           tablename    size
+0     public          fact_sales  136 kB
+1     public      dimension_date   88 kB
+2     public  dimension_location   72 kB
+3     public   dimension_product   56 kB
+4     public     dimension_order   40 kB
+2025-05-23 07:15:07,773 - INFO - Data Warehouse implementation completed successfully!
