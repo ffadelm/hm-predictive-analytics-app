@@ -6,7 +6,10 @@ import plotly.express as px
 from sqlalchemy import create_engine
 
 # Setup database connection
-engine = create_engine("postgresql://postgres:admin@localhost:5432/hmsales_dw")
+# lokal
+# engine = create_engine("postgresql://postgres:admin@localhost:5432/hmsales_dw")
+# cloud
+engine = create_engine(st.secrets["db_url"])
 
 st.set_page_config(layout="wide")
 st.title("📊 H&M Sales Data Warehouse Dashboard")
