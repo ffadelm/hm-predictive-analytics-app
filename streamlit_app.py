@@ -6,10 +6,10 @@ import joblib
 import plotly.express as px
 from sqlalchemy import create_engine
 
-# Koneksi ke database PostgreSQL lokal
-engine = create_engine("postgresql://postgres:admin@localhost:5432/hmsales_dw")
-# # Koneksi ke database cloud
-# engine = create_engine(st.secrets["db_url"])
+# # Koneksi ke database PostgreSQL lokal
+# engine = create_engine("postgresql://postgres:admin@localhost:5432/hmsales_dw")
+# Koneksi ke database cloud
+engine = create_engine(st.secrets["db_url"])
 
 # Konfigurasi halaman Streamlit agar lebar penuh
 st.set_page_config(layout="wide")
