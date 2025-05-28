@@ -163,3 +163,60 @@ Database Size:
 3     public   dimension_product   56 kB
 4     public     dimension_order   40 kB
 2025-05-23 07:15:07,773 - INFO - Data Warehouse implementation completed successfully!
+2025-05-23 09:39:17,897 - INFO - Starting Data Warehouse Implementation
+2025-05-23 09:39:19,036 - INFO - Connected to PostgreSQL: PostgreSQL 16.8 (Debian 16.8-1.pgdg120+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 12.2.0-14) 12.2.0, 64-bit
+2025-05-23 09:39:19,317 - INFO - Database schema created successfully
+2025-05-23 09:39:20,567 - INFO - Database indexes created successfully
+2025-05-23 09:39:20,730 - INFO - Analysis views created successfully
+2025-05-23 09:39:21,458 - INFO - Running sample analysis queries...
+2025-05-23 09:39:21,601 - INFO - 
+Total Sales by Category:
+2025-05-23 09:39:21,604 - INFO -       category  total_sales
+0     Footwear   11083.7797
+1  Accessories    5186.7580
+2     Clothing    5169.3700
+2025-05-23 09:39:21,673 - INFO - 
+Monthly Sales Trend:
+2025-05-23 09:39:21,674 - INFO -     year month_name  monthly_sales
+0   2018    January       201.4780
+1   2018    October      1283.8175
+2   2018   November      2349.3160
+3   2018   December      5369.5912
+4   2018      March        63.4400
+5   2018      April      1598.3450
+6   2018        May       357.4600
+7   2018       June      4802.9060
+8   2018       July       149.2520
+9   2018     August       244.7600
+10  2018  September      5019.5420
+2025-05-23 09:39:21,752 - INFO - 
+Top 5 Cities by Sales:
+2025-05-23 09:39:21,754 - INFO -            city         state  total_sales
+0   Los Angeles    California    4275.4800
+1  Philadelphia  Pennsylvania    3400.8060
+2       Houston         Texas    1474.2892
+3    Richardson         Texas    1288.4640
+4       Gilbert       Arizona    1280.9920
+2025-05-23 09:39:21,826 - INFO - 
+Profit Margin by Category:
+2025-05-23 09:39:21,827 - INFO -       category  avg_profit_margin
+0  Accessories          20.031250
+1     Clothing          14.629944
+2     Footwear          -1.950650
+2025-05-23 09:39:21,982 - INFO - 
+Table Row Counts:
+2025-05-23 09:39:21,983 - INFO -            table_name  row_count
+0      dimension_date         44
+1   dimension_product         96
+2  dimension_location         36
+3     dimension_order         49
+4          fact_sales         99
+2025-05-23 09:39:22,082 - INFO - 
+Database Size:
+2025-05-23 09:39:22,083 - INFO -   schemaname           tablename    size
+0     public          fact_sales  136 kB
+1     public      dimension_date   88 kB
+2     public  dimension_location   72 kB
+3     public   dimension_product   56 kB
+4     public     dimension_order   40 kB
+2025-05-23 09:39:22,111 - INFO - Data Warehouse implementation completed successfully!

@@ -19,7 +19,10 @@ logging.basicConfig(
 class SalesDataWarehouse:
     def __init__(self):
         # Database connection string
+        # # local
         self.connection_string = "postgresql://postgres:admin@localhost:5432/hmsales_dw"
+        # # cloud
+        # self.connection_string = "postgresql://postgres:uVekppVJDfDolutoNDclfuVysuIhiFfl@shinkansen.proxy.rlwy.net:29896/railway"
         self.engine = create_engine(self.connection_string)
         
     def test_connection(self):
